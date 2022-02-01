@@ -8,8 +8,6 @@ const {
 const colors = require("colors");
 const Enmap = require("enmap");
 const libsodium = require("libsodium-wrappers");
-const ffmpeg = require("ffmpeg-static");
-const voice = require("@discordjs/voice");
 
 const client = new Client({
     fetchAllMembers: false,
